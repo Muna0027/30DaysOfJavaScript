@@ -18,3 +18,46 @@ console.log(randNum)
 
 const rndInt = Math.floor(Math.random() * 50) +101
 console.log(rndInt)
+
+let say = 'I hope this course is not full of jargon. Check if jargon is in the sentence.'
+console.log(say.includes('jargon'))
+
+const nu = Math.floor(Math.random()*100)+1
+console.log(nu)
+
+const numb = Math.floor(Math.random()*255)+1
+console.log(numb)
+
+let strings = 'JavaScript'
+let firstLetter = strings[0]
+let secondLetter = strings[1]
+let thirdLetter = strings[2]
+let fourthLetter = strings[3]
+let fifthLetter = strings[4]
+let sixthLetter = strings[5]
+let seventhLetter = strings[6]
+let eigthLetter = strings[7]
+let ninthLetter = strings[8]
+let tenthtLetter = strings[9]
+
+console.log(firstLetter)
+console.log(secondLetter)
+console.log(thirdLetter)
+console.log(fourthLetter)
+console.log(fifthLetter)
+console.log(sixthLetter)
+console.log(seventhLetter)
+console.log(eigthLetter)
+console.log(ninthLetter)
+console.log(tenthtLetter)
+
+console.log( '\t1\t1\t1\t1\t1')
+console.log( '\t2\t1\t2\t4\t8')
+console.log( '\t3\t1\t3\t9\t27')
+console.log( '\t4\t1\t4\t16\t64')
+console.log( '\t5\t1\t5\t25\t125')
+
+let talk = 'You cannot end a sentence with because because because is a conjunction'
+console.log(talk.substr(0,30)) 
+console.log(talk.substr(54,64))   
+
