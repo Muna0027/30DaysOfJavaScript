@@ -16,8 +16,7 @@ console.log(words.indexOf('on'))
 const randNum = Math.floor(Math.random() * 101)
 console.log(randNum)
 
-const rndInt = Math.floor(Math.random() * 50) +101
-console.log(rndInt)
+
 
 let say = 'I hope this course is not full of jargon. Check if jargon is in the sentence.'
 console.log(say.includes('jargon'))
@@ -27,6 +26,9 @@ console.log(nu)
 
 const numb = Math.floor(Math.random()*255)+1
 console.log(numb)
+
+const rndInt = Math.floor(Math.random() * 50) +50
+console.log(rndInt)
 
 let strings = 'JavaScript'
 let firstLetter = strings[0]
@@ -61,3 +63,10 @@ let talk = 'You cannot end a sentence with because because because is a conjunct
 console.log(talk.substr(0,30)) 
 console.log(talk.substr(54,64))   
 
+let str = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+let pattern = /love/gi
+console.log(str.match(pattern))
+
+let st = 'You cannot end a sentence with because because because is a conjunction'
+let ptrn = /because/gi
+console.log(st.match(ptrn))
