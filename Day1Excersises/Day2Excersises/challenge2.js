@@ -70,3 +70,7 @@ console.log(str.match(pattern))
 let st = 'You cannot end a sentence with because because because is a conjunction'
 let ptrn = /because/gi
 console.log(st.match(ptrn))
+
+const yuh = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching';
+let result = yuh.replace(/[@#$%&]/g, "");
+console.log(result)
